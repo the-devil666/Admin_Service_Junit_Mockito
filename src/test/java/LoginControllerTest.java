@@ -64,22 +64,7 @@ public class LoginControllerTest {
 				.andExpect(status().isOk());
 	}
 
-	/**
-	 *
-	 * works only with DB Stored values
-	 */
-//	@Test
-//	public void testauthenticateUser() throws Exception {
-//		LoginDTO loginDTO = new LoginDTO();
-//		loginDTO.setUserName("ram123@gmail.com");
-//		loginDTO.setPassword("ram@1234");
-//
-//		mockMvc.perform(post("http://localhost:8082/authenticate")
-//						.contentType(MediaType.APPLICATION_JSON)
-//						.content(asJsonString(loginDTO)))
-//				.andExpect(status().isOk());
-//		System.out.println("successfully");
-//	}
+
 
 
 
